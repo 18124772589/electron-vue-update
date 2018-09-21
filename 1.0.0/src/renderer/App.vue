@@ -112,6 +112,7 @@ body{
 }
 #app{
   width: 100%;
+  height: 100%;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.15) 1px 4px 12px;
   border-radius: 3px;
@@ -119,7 +120,7 @@ body{
   flex-direction: column;
 }
 #app .layout-container{
- display: -webkit-box;
+  display: -webkit-box;
   display: -moz-box;
   display: box;
   display: -webkit-flex;
@@ -129,7 +130,7 @@ body{
   -webkit-flex-flow: row wrap;
   -moz-flex-flow: row wrap;
   flex-flow: row wrap;
-  height: 542px;
+  height: 100%;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   flex: 0 1 auto;
